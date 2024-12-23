@@ -2051,7 +2051,7 @@ dependencies = [
 
 [[package]]
 name = "mini-alloc"
-version = "0.7.0-beta.1"
+version = "0.7.0-rc.1"
 dependencies = [
  "cfg-if 1.0.0",
 ]
@@ -3334,7 +3334,7 @@ dependencies = [
 
 [[package]]
 name = "stylus-proc"
-version = "0.7.0-beta.1"
+version = "0.7.0-rc.1"
 dependencies = [
  "alloy-primitives",
  "alloy-sol-types",
@@ -3353,7 +3353,7 @@ dependencies = [
 
 [[package]]
 name = "stylus-sdk"
-version = "0.7.0-beta.1"
+version = "0.7.0-rc.1"
 dependencies = [
  "alloy-primitives",
  "alloy-sol-types",
@@ -3362,7 +3362,7 @@ dependencies = [
  "hex",
  "keccak-const",
  "lazy_static",
- "mini-alloc 0.7.0-beta.1",
+ "mini-alloc 0.7.0-rc.1",
  "regex",
  "stylus-proc",
 ]

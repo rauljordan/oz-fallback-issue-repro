@@ -21,8 +21,7 @@ impl Counter {
         Err(vec![1, 2, 3])
     }
     #[fallback]
-    pub fn fallback(&mut self, _calldata: &[u8]) -> Result<Vec<u8>, Vec<u8>> {
-        let some_vec = [5, 6, 7, 8].to_vec();
-        Ok(some_vec)
+    pub fn fallback(&mut self) -> Result<(), Vec<u8>> {
+        Ok(())
     }
 }
